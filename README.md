@@ -30,7 +30,12 @@ artifact.
 - [PCB top 3D render](https://daniestevez.github.io/ADF4158_PCB/pcb-top.png)
 - [PCB bottom 3D render](https://daniestevez.github.io/ADF4158_PCB/pcb-bottom.png)
 
-## Fabrication
+## BOM
+
+The BOM for this project is available as a
+[DigiKey list](https://www.digikey.es/en/mylists/list/G0QI1PQN03).
+
+## PCB fabrication
 
 The PCB is intended to be fabricated on [JLCPCB](https://jlcpcb.com/) using the
 following options:
