@@ -14,10 +14,10 @@ outputs/pcb.pdf: $(PROJECT).kicad_pcb
 	kicad-cli pcb export pdf -l B.Cu,F.Cu,F.Paste,F.Silkscreen -o $@ $<
 
 outputs/pcb-top.png: $(PROJECT).kicad_pcb
-	kicad-cli pcb render --quality high -o $@ $<
+	kicad-cli pcb render --quality high --zoom 1.75 -o $@ $<
 
 outputs/pcb-bottom.png: $(PROJECT).kicad_pcb
-	kicad-cli pcb render --side bottom --quality high -o $@ $<
+	kicad-cli pcb render --side bottom --quality high --zoom 1.75 -o $@ $<
 
 outputs/drc.rpt: $(PROJECT).kicad_pcb
 	kicad-cli pcb drc --exit-code-violations -o $@ $<
