@@ -14,6 +14,10 @@ The board runs from a 12 - 16 VDC supply, exposes all the control pins of the
 ADF4158 in a 2.58 mm pin header (3.3V logic) and includes an optional 10 MHz
 reference input. The BOM cost is around 45€.
 
+The PLL loop filter has been design with
+[ADIsimPLL](https://www.analog.com/en/lp/resources/adisimpll.html). The design
+file is [ADF4158_HMC391.pll](ADF4158_HMC391.pll).
+
 ![PCB top 3D render](https://daniestevez.github.io/ADF4158_PCB/pcb-top.png)
 
 ## Outputs
