@@ -47,10 +47,16 @@ The PCB is intended to be fabricated on [JLCPCB](https://jlcpcb.com/) using the
 following options:
 
 - Base material: FR-4
-- Layers: 2
+- Layers: 4
 - Deburring/Edge rounding: Yes
-- PCB thickness: 0.6 mm (50 ohm RF traces are designed for this stack up)
-- Surface finish: LeadFree HASL (HASL with lead is not available with 0.6 mm PCB)
+- PCB thickness: 1.6 mm
+- Material type: FR4-Standard TG 135-140
+- Surface finish: HASL (with lead)
+- Outer copper weight: 1 oz
+- Inner copper weight: 0.5 oz
+- Specify stackup: yes
+- Layer stackup: JLC04161H-7628 (50 ohm RF traces are designed for this stack up)
+- Via covering: plugged
 - Min via hole size/diamager: 0.3 mm (0.4/0.45 mm)
 
-These options are very inexpensive: $5.80 for qty. 5, $9.00 for qty. 30.
+These options are very inexpensive: $7.10 for qty. 5, $13.20 for qty. 10.
