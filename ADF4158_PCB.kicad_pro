@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.775,
-          "width": 0.25
+          "height": 0.62,
+          "width": 0.56
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -59,6 +59,10 @@
         }
       ],
       "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|120200000|102000000|a2ab87c3-e138-4768-808f-20b7fd9fd756|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
         [
           "lib_footprint_mismatch|170180000|101080000|9782ee48-7ac2-47b4-9230-4e5cd51b0932|00000000-0000-0000-0000-000000000000",
           ""
@@ -194,8 +198,8 @@
       ],
       "track_widths": [
         0.0,
-        0.4,
-        0.5906
+        0.3658,
+        0.4
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
