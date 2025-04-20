@@ -2351,6 +2351,46 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "-6 dB splitter"
+		(exclude_from_sim no)
+		(at 253.746 84.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2d6bebf3-6e92-4f58-aef9-7e8a0f536cec")
+	)
+	(text "-1 dBm\n(RFINA max 0 dBm)"
+		(exclude_from_sim no)
+		(at 129.54 135.636 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "93b6e8ce-ff63-44ec-8f0e-bfa92272cb26")
+	)
+	(text "-1 dBm"
+		(exclude_from_sim no)
+		(at 276.86 98.552 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e85ddb8a-23d5-437c-b8b1-619949eaac73")
+	)
+	(text "5 dBm"
+		(exclude_from_sim no)
+		(at 233.426 98.044 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ed2ae275-8151-48b7-b6e4-d058fe8acb7e")
+	)
 	(junction
 		(at 158.75 96.52)
 		(diameter 0)
@@ -2424,6 +2464,12 @@
 		(uuid "5024d5f2-99a6-4ac7-b005-28d2790dfb16")
 	)
 	(junction
+		(at 220.98 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dd39795-815d-4eaa-952e-1e627e18f9e5")
+	)
+	(junction
 		(at 220.98 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2478,12 +2524,6 @@
 		(uuid "a9cfb6ef-d1e4-4edb-982d-380a3c9da960")
 	)
 	(junction
-		(at 254 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab8f00fd-31fd-4989-bf86-d7dfce8dfc90")
-	)
-	(junction
 		(at 107.95 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2530,10 +2570,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff22bdcc-575a-4aa8-aeaa-db9b72d88da2")
-	)
-	(no_connect
-		(at 210.82 96.52)
-		(uuid "501f160f-dbe0-40bc-8d7f-88286b1c7fb5")
 	)
 	(wire
 		(pts
@@ -3337,6 +3373,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 96.52) (xy 209.55 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8991627a-d39e-4b2f-aa89-79e526631772")
+	)
+	(wire
+		(pts
 			(xy 109.22 66.04) (xy 110.49 66.04)
 		)
 		(stroke
@@ -3467,6 +3513,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 102.87) (xy 220.98 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d3700c8-fbda-48b6-a761-88824ad6ef2b")
+	)
+	(wire
+		(pts
 			(xy 97.79 66.04) (xy 95.25 66.04)
 		)
 		(stroke
@@ -3587,6 +3643,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 102.87) (xy 220.98 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae84b2ac-300c-46a3-89a2-0aa0b568378d")
+	)
+	(wire
+		(pts
 			(xy 113.03 86.36) (xy 113.03 83.82)
 		)
 		(stroke
@@ -3597,23 +3663,13 @@
 	)
 	(wire
 		(pts
-			(xy 254 121.92) (xy 254 132.08)
+			(xy 254 107.95) (xy 254 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "afbf3820-3c8e-421f-ae59-50c16a59a84b")
-	)
-	(wire
-		(pts
-			(xy 254 140.97) (xy 254 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0ad809d-672d-48f7-bcdd-776812edc200")
 	)
 	(wire
 		(pts
@@ -3747,6 +3803,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 96.52) (xy 209.55 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf903432-69df-46f4-8e6c-b6bd6ae35015")
+	)
+	(wire
+		(pts
 			(xy 78.74 68.58) (xy 78.74 69.85)
 		)
 		(stroke
@@ -3814,16 +3880,6 @@
 			(type default)
 		)
 		(uuid "d7e71611-639b-41c7-811c-47186702da1c")
-	)
-	(wire
-		(pts
-			(xy 254 132.08) (xy 254 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da68295c-5881-41d7-9839-c1e7987660c8")
 	)
 	(wire
 		(pts
@@ -3957,7 +4013,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 93.98) (xy 254 114.3)
+			(xy 254 93.98) (xy 254 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4934,121 +4990,6 @@
 			(project "ADF4158_PCB"
 				(path "/3d5adadc-a9f6-49bf-a77d-66e214ec66a0/918b34c8-e1d0-4b86-912d-4afff4ba0ac1"
 					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 254 137.16 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1be2f34b-6431-4ca4-b3ae-62bdf7ec3775")
-		(property "Reference" "R15"
-			(at 256.54 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "51"
-			(at 256.54 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 255.778 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 254 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 51 OHM 1% 1/10W 0402"
-			(at 254 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 254 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 254 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 254 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 254 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Part Number" "P51.0LCT-ND"
-			(at 254 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a86f7038-29c3-412b-be0c-e30952e4743f")
-		)
-		(pin "1"
-			(uuid "aeaf23ae-b0cc-4a2b-9d3a-ad8046130a68")
-		)
-		(instances
-			(project "ADF4158_PCB"
-				(path "/3d5adadc-a9f6-49bf-a77d-66e214ec66a0/918b34c8-e1d0-4b86-912d-4afff4ba0ac1"
-					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -6822,10 +6763,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4d99b4ea-7204-4f80-8357-2c7102bb7acd")
 		(property "Reference" "C18"
-			(at 207.01 99.0599 0)
+			(at 196.596 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6834,7 +6774,7 @@
 			)
 		)
 		(property "Value" "68p"
-			(at 207.01 101.5999 0)
+			(at 196.596 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7179,7 +7119,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 254 118.11 180)
+		(at 254 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7188,7 +7128,7 @@
 		(fields_autoplaced yes)
 		(uuid "586857f7-10f6-480b-bf96-d0bcaf53968c")
 		(property "Reference" "R18"
-			(at 256.54 116.8399 0)
+			(at 256.54 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7197,7 +7137,7 @@
 			)
 		)
 		(property "Value" "18"
-			(at 256.54 119.3799 0)
+			(at 256.54 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7206,7 +7146,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 255.778 118.11 90)
+			(at 255.778 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7215,7 +7155,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 254 118.11 0)
+			(at 254 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7224,7 +7164,7 @@
 			)
 		)
 		(property "Description" "RES SMD 18 OHM 1% 1/10W 0402"
-			(at 254 118.11 0)
+			(at 254 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7233,7 +7173,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 254 118.11 0)
+			(at 254 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7242,7 +7182,7 @@
 			)
 		)
 		(property "Sim.Library" ""
-			(at 254 118.11 0)
+			(at 254 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7251,7 +7191,7 @@
 			)
 		)
 		(property "Sim.Name" ""
-			(at 254 118.11 0)
+			(at 254 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7260,7 +7200,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 254 118.11 0)
+			(at 254 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7269,7 +7209,7 @@
 			)
 		)
 		(property "Digikey Part Number" "P18.0LCT-ND"
-			(at 254 118.11 0)
+			(at 254 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7353,72 +7293,6 @@
 			(project "ADF4158_PCB"
 				(path "/3d5adadc-a9f6-49bf-a77d-66e214ec66a0/918b34c8-e1d0-4b86-912d-4afff4ba0ac1"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 254 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6061f14f-e112-47ee-a74e-581ea1759170")
-		(property "Reference" "#PWR024"
-			(at 254 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 254 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33aa0081-70ae-4adb-a72f-d3f96d881f82")
-		)
-		(instances
-			(project "ADF4158_PCB"
-				(path "/3d5adadc-a9f6-49bf-a77d-66e214ec66a0/918b34c8-e1d0-4b86-912d-4afff4ba0ac1"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -10760,7 +10634,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 102.87 0)
+		(at 220.98 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10769,7 +10643,7 @@
 		(fields_autoplaced yes)
 		(uuid "df25db9f-8e42-406f-ac45-52eced69b7d8")
 		(property "Reference" "#PWR022"
-			(at 220.98 109.22 0)
+			(at 220.98 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10778,7 +10652,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 107.95 0)
+			(at 220.98 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10786,7 +10660,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 102.87 0)
+			(at 220.98 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10795,7 +10669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 102.87 0)
+			(at 220.98 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10804,7 +10678,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 102.87 0)
+			(at 220.98 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
