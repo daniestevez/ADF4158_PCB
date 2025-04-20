@@ -12,7 +12,7 @@ cover the 10 - 10.5 GHz amateur radio band.
 
 The board runs from a 12 - 16 VDC supply, exposes all the control pins of the
 ADF4158 in a 2.58 mm pin header (3.3V logic) and includes an optional 10 MHz
-reference input. The BOM cost is around 45€.
+reference input. The BOM cost is around 50€.
 
 The PLL loop filter has been design with
 [ADIsimPLL](https://www.analog.com/en/lp/resources/adisimpll.html). The design
@@ -36,8 +36,10 @@ artifact.
 
 ## BOM
 
-The BOM for this project is available as a
-[DigiKey list](https://www.digikey.es/en/mylists/list/G0QI1PQN03).
+The BOM for this project is available as a [DigiKey
+list](https://www.digikey.es/en/mylists/list/1BEYR2RWXI). Note that this list
+includes DNP components such as the SMA connector for the external 10 MHz
+reference. You might want to exclude these components from your purchase.
 
 ## PCB fabrication
 
