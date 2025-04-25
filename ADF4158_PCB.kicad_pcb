@@ -9,6 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "ADF4158 + HMC319 PCB")
+		(date "2025-04-25")
+		(rev "v1.0")
 		(company "Daniel Estévez")
 	)
 	(layers
