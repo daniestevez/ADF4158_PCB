@@ -18,6 +18,8 @@ The PLL loop filter has been design with
 [ADIsimPLL](https://www.analog.com/en/lp/resources/adisimpll.html). The design
 file is [ADF4158_HMC391.pll](ADF4158_HMC391.pll).
 
+![Assembled PCB](pictures/adf4158-pcb.jpg)
+
 ![PCB top 3D render](https://daniestevez.github.io/ADF4158_PCB/pcb-top.png)
 
 ## Outputs
